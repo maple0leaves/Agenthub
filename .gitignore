@@ -1,0 +1,44 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node / Vite
+node_modules/
+agenthub-web/node_modules/
+agenthub-web/dist/
+dist/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ai-service/.venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+ai-service/.env
+
+# Runtime files
+logs/
+*.log
+*.pid
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Cursor / local conversation history
+.specstory/
+
